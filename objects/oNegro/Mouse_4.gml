@@ -10,10 +10,12 @@ if (Object1.color_carta == "negro") {
 		with (oRojo) instance_destroy();
 		with (oNegro) instance_destroy();
 		with (oFondoNegro) instance_destroy();
-} else {
-    pesos -= 100;
-    show_debug_message("❌ Fallaste... era ROJA");
-	//Si pierdo
-		game_restart();//Reiniciar todo
-	}
+} 
+	else 
+		{
+		    pesos -= 100;
+		    show_debug_message("❌ Fallaste... era ROJA");
+			//Si pierdo
+			game_restart();//Reiniciar todo
+		}
 }
