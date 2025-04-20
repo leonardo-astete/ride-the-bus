@@ -10,8 +10,8 @@
   "name":"Object4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Juego 4",
+    "path":"folders/Objects/Juego 4.yy",
   },
   "parentObjectId":null,
   "persistent":false,
