@@ -15,5 +15,5 @@ if (Object1.color_carta == "negro") {
     show_debug_message("❌ Fallaste... era ROJA");
 	//Si pierdo
 		game_restart();//Reiniciar todo
-}
+	}
 }
