@@ -12,6 +12,11 @@ with (Object3) {
 		global.pesos += 100;
         show_debug_message("🎉 ¡Correcto! Estaba DENTRO");
         global.juego3_ganado = true;
+		
+				// Iniciar Juego 3
+		with (Object4) {
+			activar_juego4 = true;
+		}
 
         with (oDentro) instance_destroy();
         with (oFuera) instance_destroy();
@@ -19,6 +24,6 @@ with (Object3) {
     } else {
 		global.pesos -= 100;
         show_debug_message("❌ Fallaste... estaba FUERA");
-        game_restart();
+		instance_create_layer(0, 0, "Instances", oGameOver);
     }
 }

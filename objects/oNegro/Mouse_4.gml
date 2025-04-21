@@ -21,6 +21,6 @@ with (Object1) {
     } else {
         global.pesos -= 100;
         show_debug_message("❌ Fallaste... era ROJA");
-        game_restart();
+        instance_create_layer(0, 0, "Instances", oGameOver);
     }
 }

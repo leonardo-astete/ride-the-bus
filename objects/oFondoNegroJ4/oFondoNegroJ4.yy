@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object4",
+  "%Name":"oFondoNegroJ4",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object4",
+  "name":"oFondoNegroJ4",
   "overriddenProperties":[],
   "parent":{
     "name":"Juego 4",
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"pink_backing",
-    "path":"sprites/pink_backing/pink_backing.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
