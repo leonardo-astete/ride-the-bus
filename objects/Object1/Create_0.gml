@@ -11,7 +11,7 @@ color_carta = "";
 depth = 101;
 
 // Dinero
-pesos = 10000;
+global.pesos = 10000;
 
 // Control de flujo
 juego_actual = 1;

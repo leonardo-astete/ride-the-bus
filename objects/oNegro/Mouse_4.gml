@@ -4,7 +4,7 @@ with (Object1) {
     Object1.sprite_index = Object1.carta_oculta_sprite;
 
     if (Object1.color_carta == "negro") {
-        pesos += 100;
+        global.pesos += 100;
         show_debug_message("🎉 ¡Correcto! Era NEGRA");
 
         // ✅ Activar juego 2 y marcar como ganado
@@ -19,7 +19,7 @@ with (Object1) {
         with (oNegro) instance_destroy();
         with (oFondoNegro) instance_destroy();
     } else {
-        pesos -= 100;
+        global.pesos -= 100;
         show_debug_message("❌ Fallaste... era ROJA");
         game_restart();
     }

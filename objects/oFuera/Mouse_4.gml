@@ -1,17 +1,22 @@
-var eleccion = "menor";
+var eleccion = "fuera";
 
-with (Object2) {
-    sprite_index = carta_oculta_sprite; // Revelar la carta azul
+var menor = min(global.valor_carta1, global.valor_carta2);
+var mayor = max(global.valor_carta1, global.valor_carta2);
 
-    if (global.valor_carta2 < global.valor_carta1) {
-        show_debug_message("🎉 ¡Correcto! Era MENOR");
-        global.juego2_ganado = true;
+with (Object3) {
+    sprite_index = carta_oculta_sprite;
 
-        with (oMayor) instance_destroy();
-        with (oMenor) instance_destroy();
-        with (oFondoNegroJ2) instance_destroy();
+    if (global.valor_carta3 < menor || global.valor_carta3 > mayor) {
+		global.pesos += 100;
+        show_debug_message("🎉 ¡Correcto! Estaba FUERA");
+        global.juego3_ganado = true;
+
+        with (oDentro) instance_destroy();
+        with (oFuera) instance_destroy();
+        with (oFondoNegroJ3) instance_destroy();
     } else {
-        show_debug_message("❌ Fallaste... era MAYOR");
-        game_restart(); // Reiniciar si fallás
+		global.pesos -= 100;
+        show_debug_message("❌ Fallaste... estaba DENTRO");
+        game_restart();
     }
 }
