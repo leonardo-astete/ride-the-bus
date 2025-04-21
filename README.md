@@ -1,4 +1,4 @@
-# 🃏  Ride the bus - CardGuess – My First Game in GameMaker
+# 🃏  Ride the bus – My First Game in GameMaker
 
 This is my very first game project, which I'm creating using **GameMaker**, as a way to learn and practice game development step by step.
 
