@@ -10,8 +10,8 @@
   "name":"oRojo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Juego 1",
-    "path":"folders/Objects/Juego 1.yy",
+    "name":"01 Red or Black",
+    "path":"folders/Objects/01 Red or Black.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -18,6 +18,7 @@ var prefijo = pintas [indice_pinta];
 
 //Elegir carta del 1 al 13
 var numero = irandom_range(1, 13);
+global.valor_carta1 = numero; // ✅ Guardar valor para el juego 2
 var sufijo = (numero < 10) ? "0" + string(numero) : string(numero);
 var nombre_sprite = prefijo+sufijo;
 

@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oNegro",
+  "%Name":"oFondoNegroJ2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oNegro",
+  "name":"oFondoNegroJ2",
   "overriddenProperties":[],
   "parent":{
-    "name":"01 Red or Black",
-    "path":"folders/Objects/01 Red or Black.yy",
+    "name":"02 Higher or Lower",
+    "path":"folders/Objects/02 Higher or Lower.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Negro",
-    "path":"sprites/Negro/Negro.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

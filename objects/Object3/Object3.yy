@@ -10,8 +10,8 @@
   "name":"Object3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"03 Inside outside",
+    "path":"folders/Objects/03 Inside outside.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,17 +6,23 @@ with (Object1) {
     if (Object1.color_carta == "rojo") {
         pesos += 100;
         show_debug_message("🎉 ¡Correcto! Era ROJA");
-		global.juego1_ganado = true; // ✅ Aquí sí ganaste de verdad
+
+        global.juego1_ganado = true; // ✅ SOLO AQUÍ
 		
-		// ✅ Destruir ambos botones
-		with (oRojo) instance_destroy();
-		with (oNegro) instance_destroy();
-		with (oFondoNegro) instance_destroy();
+		 // ✅ Activar juego 2 y marcar como ganado
+        global.juego1_ganado = true;
+
+        with (Object2) {
+            activar_juego2 = true;
+        }
+
+        // ✅ Eliminar botones y fondo
+        with (oRojo) instance_destroy();
+        with (oNegro) instance_destroy();
+        with (oFondoNegro) instance_destroy();
     } else {
         pesos -= 100;
         show_debug_message("❌ Fallaste... era NEGRA");
-		
-		//Si pierdo
-		game_restart();//Reiniciar todo
+        game_restart();
     }
 }
