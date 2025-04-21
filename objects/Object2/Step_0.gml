@@ -30,6 +30,9 @@ if (!is_moving && !carta_generada) {
 
     // Elegir número del 1 al 13
     var numero = irandom_range(1, 13);
+	while (numero == global.valor_carta1) {
+    numero = irandom_range(1, 13);
+}
     global.valor_carta2 = numero; // Guardar para comparar después
 
     var sufijo = (numero < 10) ? "0" + string(numero) : string(numero);
