@@ -1,5 +1,9 @@
 depth = 102
 
 is_moving = false;
-target_x = x; // o el valor final al que quieras mover
-target_y = y; // igual que arriba
+target_x = x;
+target_y = y;
+carta_generada = false;
+show_buttons = false;
+timer = 0;
+activar_juego4 = false;

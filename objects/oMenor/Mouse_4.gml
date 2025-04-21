@@ -19,6 +19,6 @@ with (Object2) {
     } else {
 		global.pesos -= 100;
         show_debug_message("❌ Fallaste... era MAYOR");
-        game_restart(); // Reiniciar si fallás
+        instance_create_layer(0, 0, "Instances", oGameOver);
     }
 }
