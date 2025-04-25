@@ -4,7 +4,7 @@ with (Object2) {
     sprite_index = carta_oculta_sprite; // Revelar la carta azul
 
     if (global.valor_carta2 < global.valor_carta1) {
-		global.pesos += 100;
+		global.money += global.betAmount * 3;
         show_debug_message("🎉 ¡Correcto! Era MENOR");
         global.juego2_ganado = true;
 		
@@ -17,8 +17,7 @@ with (Object2) {
         with (oMenor) instance_destroy();
         with (oFondoNegroJ2) instance_destroy();
     } else {
-		global.pesos -= 100;
-        show_debug_message("❌ Fallaste... era MAYOR");
+        show_debug_message("❌ Fallaste... era ROJA");
         instance_create_layer(0, 0, "Instances", oGameOver);
     }
 }
