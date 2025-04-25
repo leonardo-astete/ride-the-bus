@@ -4,7 +4,7 @@ with (Object1) {
     Object1.sprite_index = Object1.carta_oculta_sprite;
 
     if (Object1.color_carta == "negro") {
-        global.pesos += 100;
+        global.money += global.betAmount * 2;
         show_debug_message("🎉 ¡Correcto! Era NEGRA");
 
         // ✅ Activar juego 2 y marcar como ganado
@@ -19,7 +19,6 @@ with (Object1) {
         with (oNegro) instance_destroy();
         with (oFondoNegro) instance_destroy();
     } else {
-        global.pesos -= 100;
         show_debug_message("❌ Fallaste... era ROJA");
         instance_create_layer(0, 0, "Instances", oGameOver);
     }

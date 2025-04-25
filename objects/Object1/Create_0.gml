@@ -10,11 +10,11 @@ color_carta = "";
 
 depth = 101;
 
-// Dinero
-global.pesos = 10000;
-
 // Control de flujo
 juego_actual = 1;
+
+//Dinero actual
+global.money -=global.betAmount;
 
 
 carta2_sprite = -1;

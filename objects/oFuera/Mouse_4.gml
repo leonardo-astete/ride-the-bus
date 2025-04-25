@@ -7,7 +7,7 @@ with (Object3) {
     sprite_index = carta_oculta_sprite;
 
     if (global.valor_carta3 < menor || global.valor_carta3 > mayor) {
-		global.pesos += 100;
+		global.money += global.betAmount * 3;
         show_debug_message("🎉 ¡Correcto! Estaba FUERA");
         global.juego3_ganado = true;
 		
@@ -20,8 +20,7 @@ with (Object3) {
         with (oFuera) instance_destroy();
         with (oFondoNegroJ3) instance_destroy();
     } else {
-		global.pesos -= 100;
-        show_debug_message("❌ Fallaste... estaba DENTRO");
+        show_debug_message("❌ Fallaste... era ROJA");
         instance_create_layer(0, 0, "Instances", oGameOver);
     }
 }
