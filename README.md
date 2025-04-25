@@ -44,4 +44,6 @@ Through this project, I'm learning how to:
 
 This project is still a work in progress. I'm actively adding new features, fixing bugs, and improving the code as I learn more.
 
+⚠️ Legal Notice: This project is for educational and personal use only. Some resources used (such as images, sounds, or music) may be subject to copyright. No commercial use or profit is intended. If you are a copyright holder and would like any content removed, please contact me.
+
 ---
