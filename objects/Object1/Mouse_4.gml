@@ -1,12 +1,5 @@
 //JUEGO 1
 
-// Solo si aún no está en movimiento
-if (!is_moving) {
-    target_x = 64;
-    target_y = 288;
-    is_moving = true;
-}
-
 
 // Este código se ejecuta cuando ocurre el evento de "click"
 

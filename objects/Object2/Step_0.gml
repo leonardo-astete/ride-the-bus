@@ -52,7 +52,7 @@ if (!is_moving && !carta_generada) {
     carta_generada = true;
 
     //Inicia el temporizador de 1 segundo
-		timer = 60;
+		timer = 10;
 }
 
 //Botones
