@@ -10,7 +10,7 @@ if (is_moving) {
         is_moving = false;
 		
 		//Inicia el temporizador de 1 segundo
-		timer = 60;
+		timer = 10;
 	}
 }
 

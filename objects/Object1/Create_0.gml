@@ -5,6 +5,11 @@ is_moving = false;
 show_buttons = false;
 timer = 0;
 
+// Inicia el movimiento automáticamente
+target_x = 64;
+target_y = 288;
+is_moving = true;
+
 carta_oculta_sprite = -1;
 color_carta = "";
 

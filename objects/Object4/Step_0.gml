@@ -37,7 +37,7 @@ if (!is_moving && !carta_generada) {
     }
 
     carta_generada = true;
-    timer = room_speed; // Esperar 1 segundo para mostrar botones
+    timer = 10; // Esperar 1 segundo para mostrar botones
 }
 
 // Mostrar botones después de 1 segundo
